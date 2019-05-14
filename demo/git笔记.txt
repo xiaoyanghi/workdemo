@@ -38,6 +38,16 @@ git merge 分支名  合并分支 在分支上合并
 
 
 
+配置免密链接 
+
+cd ~
+
+ssh-keygen -t rsa -C   xiaoyanghi@163.com
+
+查看生成的ssh 的 公钥放在GitHub setting上
+
+生成新的代号
+git remote add  originssh  git@github.com:xiaoyanghi/workdemo.git
 
 
 .
