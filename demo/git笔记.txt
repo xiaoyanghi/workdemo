@@ -1,0 +1,49 @@
+安装好后 
+
+初始化
+git init 
+
+设置
+
+git config --global user.name "xiaoyang1"
+
+git config --global user.email "xiaoyanghi@163.com"
+
+
+命令
+ 
+查看状态
+git status 
+
+git add 
+git commit -m 描述"
+git log  --pretty=oneline
+
+git reflog 
+
+git reset --hard HEAD^  回退 1个 版本
+
+git reset --hard HEAD~2 回退 2个 版本
+
+git reset --hard 版本号 
+
+git checkout --文件名  还原最新版本
+
+git branch -v 查看分支
+git branch 分支名 创建分支
+git checkout 分支名  切换分支
+
+git merge 分支名  合并分支 在分支上合并
+
+
+
+
+
+
+.
+
+
+
+
+
+
