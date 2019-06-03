@@ -55,8 +55,6 @@ git remote add  originssh  git@github.com:xiaoyanghi/workdemo.git
 git clone git@github.com:xiaoyanghi/workdemo.git
 
 
-.
-
 
 
 
