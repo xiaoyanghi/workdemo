@@ -50,6 +50,11 @@ ssh-keygen -t rsa -C   xiaoyanghi@163.com
 git remote add  originssh  git@github.com:xiaoyanghi/workdemo.git
 
 
+其他人 下载
+
+git clone git@github.com:xiaoyanghi/workdemo.git
+
+
 .
 
 
