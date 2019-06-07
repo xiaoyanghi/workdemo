@@ -1,58 +1,62 @@
-°²×°ºÃºó 
+å®‰è£…å¥½å 
 
-³õÊ¼»¯
+åˆå§‹åŒ–
 git init 
 
-ÉèÖÃ
+è®¾ç½®
 
 git config --global user.name "xiaoyang1"
 
 git config --global user.email "xiaoyanghi@163.com"
 
 
-ÃüÁî
+å‘½ä»¤
  
-²é¿´×´Ì¬
+æŸ¥çœ‹çŠ¶æ€
 git status 
 
 git add 
-git commit -m ÃèÊö"
+git commit -m æè¿°"
 git log  --pretty=oneline
 
 git reflog 
 
-git reset --hard HEAD^  »ØÍË 1¸ö °æ±¾
+git reset --hard HEAD^  å›é€€ 1ä¸ª ç‰ˆæœ¬
 
-git reset --hard HEAD~2 »ØÍË 2¸ö °æ±¾
+git reset --hard HEAD~2 å›é€€ 2ä¸ª ç‰ˆæœ¬
 
-git reset --hard °æ±¾ºÅ 
+git reset --hard ç‰ˆæœ¬å· 
 
-git checkout --ÎÄ¼şÃû  »¹Ô­×îĞÂ°æ±¾
+git checkout --æ–‡ä»¶å  è¿˜åŸæœ€æ–°ç‰ˆæœ¬
 
-git branch -v ²é¿´·ÖÖ§
-git branch ·ÖÖ§Ãû ´´½¨·ÖÖ§
-git checkout ·ÖÖ§Ãû  ÇĞ»»·ÖÖ§
+git branch -v æŸ¥çœ‹åˆ†æ”¯
+git branch åˆ†æ”¯å åˆ›å»ºåˆ†æ”¯
+git checkout åˆ†æ”¯å  åˆ‡æ¢åˆ†æ”¯
 
-git merge ·ÖÖ§Ãû  ºÏ²¢·ÖÖ§ ÔÚ·ÖÖ§ÉÏºÏ²¢
-
-
+git merge åˆ†æ”¯å  åˆå¹¶åˆ†æ”¯ åœ¨åˆ†æ”¯ä¸Šåˆå¹¶
 
 
-ÅäÖÃÃâÃÜÁ´½Ó 
+
+
+é…ç½®å…å¯†é“¾æ¥ 
 
 cd ~
 
 ssh-keygen -t rsa -C   xiaoyanghi@163.com
 
-²é¿´Éú³ÉµÄssh µÄ ¹«Ô¿·ÅÔÚGitHub settingÉÏ
+æŸ¥çœ‹ç”Ÿæˆçš„ssh çš„ å…¬é’¥æ”¾åœ¨GitHub settingä¸Š
 
-Éú³ÉĞÂµÄ´úºÅ
+ç”Ÿæˆæ–°çš„ä»£å·
 git remote add  originssh  git@github.com:xiaoyanghi/workdemo.git
 
 
-ÆäËûÈË ÏÂÔØ
+å…¶ä»–äºº ä¸‹è½½
 
 git clone git@github.com:xiaoyanghi/workdemo.git
+
+ git æä¾›äº†ä¸€ä¸ªå…¨å±€çš„ .gitignoreï¼Œä½ å¯ä»¥åœ¨ä½ çš„ç”¨æˆ·ç›®å½•ä¸‹åˆ›å»º ~/.gitignoreglobal æ–‡ä»¶ï¼Œä»¥åŒæ ·çš„è§„åˆ™æ¥åˆ’å®šå“ªäº›æ–‡ä»¶æ˜¯ä¸éœ€è¦ç‰ˆæœ¬æ§åˆ¶çš„ã€‚
+
+éœ€è¦æ‰§è¡Œ git config --global core.excludesfile ~/.gitignoreglobalæ¥ä½¿å¾—å®ƒç”Ÿæ•ˆã€‚
 
 
 
